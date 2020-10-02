@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#56050404">
+
+
+    <ImageView
+        android:id="@+id/yourImage"
+        android:layout_width="match_parent"
+        android:layout_height="308dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/btnTakePicture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Fotografar"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+
+    <Button
+        android:id="@+id/btnReading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QR Code/Code Bar"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+
+    <EditText
+        android:id="@+id/edtReading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="..."
+        android:textAlignment="center"/>
+</LinearLayout>
